@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{c17ab8cd-d697-4ba1-89d5-cf58d669e217}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{b0d51671-2978-4b98-8123-7bbb7f45d11f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{72586703-63db-43ef-858c-1f82bb388abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{7689b80e-d409-4a22-9dc6-8ddd33a8402f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{731063a6-6aea-45a3-b24c-44a26164fd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="UserList">
+      <UniqueIdentifier>{d1fa73d0-106a-465a-96eb-34f1518b2cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video">
+      <UniqueIdentifier>{2d95d7e2-b5fc-45e9-af28-bd32769c03a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeetingListModel">
+      <UniqueIdentifier>{c0d7ac4c-5f23-4d95-b87d-3318b2ca3b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VoiceTestGuide">
+      <UniqueIdentifier>{c0ab6592-bd02-4d71-b242-83ee4485d055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChatList">
+      <UniqueIdentifier>{a09030f5-12bb-4c01-8ba2-c5c9006719e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\Setting">
+      <UniqueIdentifier>{4fbd0834-eb95-4e1a-a3c0-8696fce7b043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DocShare">
+      <UniqueIdentifier>{74a49d1c-c9ba-48f1-92eb-7ed2da480fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SeanThread">
+      <UniqueIdentifier>{a1dea004-a7d9-4c6b-a175-f3dab1ea0c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoMonitor">
+      <UniqueIdentifier>{4137f807-04b3-4c9f-b5ee-8bc61cf573c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="eventcenter.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Default.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ccommonwidget.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ccommonwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ccommonwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\OSInfo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eventcenter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eventcenter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="login\RoomSelectWdg.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RoomSelectWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RoomSelectWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="login\UserLoginWdg.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserLoginWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserLoginWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\RoomWdg.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RoomWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RoomWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\LeftWdg.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LeftWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LeftWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CListModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CListModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UserList\CListModel.cpp">
+      <Filter>UserList</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CListItemDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CListItemDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UserList\CListItemDelegate.cpp">
+      <Filter>UserList</Filter>
+    </ClCompile>
+    <ClCompile Include="Video\VideoMgr.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingListModel\ButtonDelegate.cpp">
+      <Filter>MeetingListModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ButtonDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ButtonDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingListModel\Meetinglistmodel.cpp">
+      <Filter>MeetingListModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Meetinglistmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Meetinglistmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingListModel\Meetinglistwdg.cpp">
+      <Filter>MeetingListModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Meetinglistwdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Meetinglistwdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingListModel\SeanTableViewDelegate.cpp">
+      <Filter>MeetingListModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanTableViewDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanTableViewDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="login\MeetingLoadingWidget.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeetingLoadingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeetingLoadingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceTestGuide\MicTestWdg.cpp">
+      <Filter>VoiceTestGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MicTestWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MicTestWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceTestGuide\SpekerTestWdg.cpp">
+      <Filter>VoiceTestGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SpekerTestWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SpekerTestWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceTestGuide\VoiceTestWdg.cpp">
+      <Filter>VoiceTestGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VoiceTestWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VoiceTestWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="login\ServerAddressSet.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ServerAddressSet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ServerAddressSet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatList\ChatListModel.cpp">
+      <Filter>ChatList</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ChatListModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ChatListModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatList\ChatListModelDelegate.cpp">
+      <Filter>ChatList</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ChatListModelDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ChatListModelDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\AppSetting.cpp">
+      <Filter>Room\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\DlgAVSetting.cpp">
+      <Filter>Room\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgAVSetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgAVSetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\DlgApplyAdmin.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgApplyAdmin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgApplyAdmin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ccommondialog.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ccommondialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ccommondialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\AboutWidget.cpp">
+      <Filter>Room\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\ModifyPassWord.cpp">
+      <Filter>Room\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModifyPassWord.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModifyPassWord.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\WdgNetInfo.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WdgNetInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WdgNetInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\LabelNetInfo.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LabelNetInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LabelNetInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceTestGuide\SeanProgressBar.cpp">
+      <Filter>VoiceTestGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanProgressBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanProgressBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\SeanAnimation.cpp">
+      <Filter>Room\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanAnimation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanAnimation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingListModel\MeetingRoomWordWdg.cpp">
+      <Filter>MeetingListModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeetingRoomWordWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeetingRoomWordWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingListModel\MeetingDetailDelegate.cpp">
+      <Filter>MeetingListModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeetingDetailDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeetingDetailDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\SeanGifWdg.cpp">
+      <Filter>Room\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanGifWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanGifWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\SeanButton.cpp">
+      <Filter>Room\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DocShare\OcImageLoader.cpp">
+      <Filter>DocShare</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OcImageLoader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OcImageLoader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DocShare\SeanPptProgressWdg.cpp">
+      <Filter>DocShare</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanPptProgressWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanPptProgressWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DocShare\ToolBar.cpp">
+      <Filter>DocShare</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ToolBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ToolBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DocShare\WdgDocShare.cpp">
+      <Filter>DocShare</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WdgDocShare.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WdgDocShare.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DocShare\SeanTestWdg.cpp">
+      <Filter>DocShare</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanTestWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanTestWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DocShare\qupfile.cpp">
+      <Filter>DocShare</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qupfile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qupfile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DocShare\ConvertDocThread.cpp">
+      <Filter>DocShare</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ConvertDocThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ConvertDocThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SeanThread\SeanThread.cpp">
+      <Filter>SeanThread</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SeanThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SeanThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videomonitormain.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videomonitormain.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoMonitor\videomonitormain.cpp">
+      <Filter>VideoMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Video\VideoMonitorMgr.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoWin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoWin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Video\VideoWin.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resources\Default.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\ccommonwidget.h">
+      <Filter>common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="eventcenter.h">
+      <Filter>Main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login\RoomSelectWdg.h">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login\RoomSelectWdg.ui">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login\UserLoginWdg.h">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login\UserLoginWdg.ui">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\RoomWdg.ui">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\RoomWdg.h">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\LeftWdg.h">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\LeftWdg.ui">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UserList\CListModel.h">
+      <Filter>UserList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UserList\CListItemDelegate.h">
+      <Filter>UserList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Video\VideoMgr.h">
+      <Filter>Video</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\ButtonDelegate.h">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\Meetinglistmodel.h">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\Meetinglistwdg.h">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\Meetinglistwdg.ui">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\SeanTableViewDelegate.h">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login\MeetingLoadingWidget.h">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VoiceTestGuide\MicTestWdg.h">
+      <Filter>VoiceTestGuide</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VoiceTestGuide\MicTestWdg.ui">
+      <Filter>VoiceTestGuide</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VoiceTestGuide\SpekerTestWdg.h">
+      <Filter>VoiceTestGuide</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VoiceTestGuide\SpekerTestWdg.ui">
+      <Filter>VoiceTestGuide</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VoiceTestGuide\VoiceTestWdg.h">
+      <Filter>VoiceTestGuide</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VoiceTestGuide\VoiceTestWdg.ui">
+      <Filter>VoiceTestGuide</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login\ServerAddressSet.h">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login\ServerAddressSet.ui">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ChatList\ChatListModel.h">
+      <Filter>ChatList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ChatList\ChatListModelDelegate.h">
+      <Filter>ChatList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\DlgAVSetting.h">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\DlgAVSetting.ui">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\DlgApplyAdmin.h">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\DlgApplyAdmin.ui">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\ccommondialog.h">
+      <Filter>common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\AboutWidget.h">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\AboutWidget.ui">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\ModifyPassWord.h">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\ModifyPassWord.ui">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\WdgNetInfo.h">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Room\LabelNetInfo.h">
+      <Filter>Room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VoiceTestGuide\SeanProgressBar.h">
+      <Filter>VoiceTestGuide</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\SeanAnimation.h">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\SeanAnimation.ui">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\MeetingRoomWordWdg.h">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\MeetingRoomWordWdg.ui">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeetingListModel\MeetingDetailDelegate.h">
+      <Filter>MeetingListModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\SeanGifWdg.h">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\SeanGifWdg.ui">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Setting\SeanButton.h">
+      <Filter>Room\Setting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\OcImageLoader.h">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\SeanPptProgressWdg.h">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\SeanPptProgressWdg.ui">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\ToolBar.h">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\WdgDocShare.h">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\SeanTestWdg.h">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\SeanTestWdg.ui">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\qupfile.h">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocShare\ConvertDocThread.h">
+      <Filter>DocShare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SeanThread\SeanThread.h">
+      <Filter>SeanThread</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoMonitor\videomonitormain.ui">
+      <Filter>VideoMonitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoMonitor\videomonitormain.h">
+      <Filter>VideoMonitor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Video\VideoWin.h">
+      <Filter>Video</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\OSInfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RoomSelectWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UserLoginWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RoomWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LeftWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Meetinglistwdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MicTestWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SpekerTestWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VoiceTestWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ServerAddressSet.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_sdk\inc\IMeetingFrame.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\AppSetting.h">
+      <Filter>Room\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DlgAVSetting.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DlgApplyAdmin.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AboutWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ModifyPassWord.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SeanAnimation.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MeetingRoomWordWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SeanGifWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SeanPptProgressWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SeanTestWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_videomonitormain.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Video\VideoMonitorMgr.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Meeting.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\style.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\login.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\setting.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\voiceTestGuide.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\qt_zh_CN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

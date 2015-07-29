@@ -1,0 +1,352 @@
+
+
+/**************************************************************/
+QWidget#SeanFontSetting
+{
+	border-width: 10px 10px 10px 10px;
+    border-image: url(:/setting/setting/bg_list.png) 10 10 10 10;
+}
+
+ QPushButton#closeBtn{
+
+  border-image:url(:/login/login/icon_gb.png);
+}
+
+
+ QComboBox QAbstractItemView
+{
+	outline: none;
+	margin: 0px;
+	border-width:3px 3px 3px 3px;
+	border-image:url(:/login/login/style_1.png);
+	padding: 1px 1px 1px 1px;
+	selection-background-color: qlineargradient(x1: 0.5, y1: 0.5, x2: 0, y2: 0, stop: 0 #3f98d9, stop: 1 #3188c7);
+}
+ QComboBox{
+     font-size:12px;
+	font-family:Î¢ÈíÑÅºÚ,ËÎÌå;
+	padding: 0px 0px 0px 3px;
+	border-width:5px 5px 5px 5px;
+	border-image:url(:/login/login/style_1_normal.png) 5 5 5 5;
+}
+QComboBox:hover:disabled
+{
+	border-width:5px 5px 5px 5px;
+	border-image:url(:/login/login/style_1_hover.png) 5 5 5 5;
+}
+ QComboBox::drop-down
+{
+	top: 1px;
+	left: 1px;
+	background:transparent;
+}
+
+ QComboBox::down-arrow
+{
+	border:none;
+	image: url(:/login/login/down_style_1_disable.png);
+}
+ QComboBox::down-arrow
+{
+	border:none;
+	image: url(:/login/login/down_style_1.png);
+}
+
+ QComboBox::down-arrow:on
+{
+	border:none;
+	image: url(:/login/login/up_style_1.png);
+}
+
+ QCheckBox
+{
+	font-size:12px;
+	font-family:Î¢ÈíÑÅºÚ,ËÎÌå;
+}
+ QLabel
+{
+	color: rgb(0, 0, 0);
+}
+
+ QSlider::groove:horizontal
+{
+	border: 0px solid #999999;                             
+	width:100px;
+	height:1px;                                           
+	margin: 1px 0;                                         
+	left: 12px; right: 12px;
+}
+QSlider::groove:horizontal
+{
+	border: 0px solid #999999;                             
+	width:100px;
+	height:1px;                                           
+	margin: 1px 0;                                         
+	left: 12px; right: 12px;
+}
+QSlider::handle:horizontal
+{  
+	border-image: url(:/login/login/thumb_style_1.png) 0 38 0 0;
+	width:18px;
+	height:9Px;
+	margin: -5px 0px -6px 0px;
+}  
+
+QSlider::handle:horizontal:hover
+{  
+	border-image: url(:/login/login/thumb_style_1.png) 0 19 0 19;
+}  
+
+ QSlider::handle:horizontal:pressed
+{  
+	border-image: url(:/login/login/thumb_style_1.png) 0 0 0 38;
+} 
+
+ QSlider::add-page:horizontal 
+{
+    background: rgb(202,206,200);
+}
+
+ QSlider::sub-page:horizontal
+{
+    background:rgb(101,187,51);
+}
+
+/*********QCheckBox************/
+ QCheckBox:focus
+{
+	border: none;
+	outline: none;
+}
+
+ QCheckBox
+{
+	font-size:12px;
+	font-family:Î¢ÈíÑÅºÚ,ËÎÌå;
+}
+
+ QCheckBox::indicator
+{	
+	width:15px;
+	height:15px;
+}
+
+ QCheckBox::indicator:unchecked 
+{
+	border-image: url(:/setting/setting/style_1.png) 0 105 0 0;
+}
+
+ QCheckBox::indicator:unchecked:hover
+{
+	border-image: url(:/setting/setting/style_1.png) 0 90 0 15;
+}
+
+ QCheckBox::indicator:unchecked:pressed
+{
+	border-image: url(:/setting/setting/style_1.png) 0 75 0 30;
+}
+
+ QCheckBox::indicator:unchecked:disabled
+{
+     border-image: url(:/setting/setting/style_1.png) 0 15 0 90;
+}
+
+ QCheckBox::indicator:checked
+{ 
+	border-image: url(:/setting/setting/style_1.png) 0 60 0 45;
+}
+
+ QCheckBox::indicator:checked:hover
+{
+	border-image: url(:/setting/setting/style_1.png) 0 45 0 60;
+}
+
+ QCheckBox::indicator:checked:pressed
+{
+	border-image: url(:/setting/setting/style_1.png) 0 30 0 75;
+}
+
+ QCheckBox::indicator:checked:disabled
+{
+     border-image: url(:/setting/setting/style_1.png) 0 0 0 105;
+}
+
+QLabel#backLabel{
+
+    border-width: 20px 20px 20px 20px;
+    border-image: url(:/setting/setting/bg_list.png) 20 20 20 20;
+ }
+ QLabel#animationLabel{
+   
+    border-width: 5px 5px 5px 5px;
+    border-image: url(:/setting/setting/AddTimeWinBtn_normal.png) 5 5 5 5;
+ }
+ 
+QLabel#titleLabel{
+ 
+    background-color: rgba(10,10,10,0); 
+	color: rgb(255, 255, 255);
+    border: 5px transparent;
+    height: 60px;
+    font-size:14px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+ }
+
+QPushButton#closeBtn{
+ 
+   border-image:url(:/login/login/icon_gb.png);
+ }
+
+QPushButton#closeBtn:hover{
+ 
+   border-image:url(:/login/login/icon_hgb1-09.png);
+ }
+
+
+QLabel#explainLabel{
+
+   background-color: rgba(10,10,10,0); 
+	color: rgb(255, 255, 255);
+    border: 5px transparent;
+    height: 60px;
+    font-size:14px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+
+}
+QLabel#copyrightLabel{
+  background-color: rgba(10,10,10,0); 
+	color: rgb(220, 220, 220);
+    border: 5px transparent;
+    height: 30px;
+    font-size:10px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+}
+
+QLabel#tipLabel {
+
+    background-color: rgba(10,10,10,0); 
+	color: rgb(0, 0, 0);
+    border: 2px transparent;
+    font-size:14px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+
+}
+
+QLabel#SystemTitleLabel
+{
+	font-size:14px;
+	font-family:Î¢ÈíÑÅºÚ,ËÎÌå;
+	color:#ffffff;
+	min-height:30px;
+}
+
+QLabel#loadLabel
+{
+	border-width: 20px 20px 20px 20px;
+    border-image: url(:/setting/setting/pptLoadBackLabel.png) 20 20 20 20;
+}
+QPushButton#penBtn{
+
+    min-width:26px;min-height:26px;
+	max-width:26px;max-height:26px;	
+	border-image: url(:/setting/setting/01446.png) 0 0 0 0;
+}
+QPushButton#penBtn:checked{
+  border-image: url(:/setting/setting/01448.png) 0 0 0 0;
+
+ }
+ QPushButton#penBtn:hover{
+  border-image: url(:/setting/setting/01445.png) 0 0 0 0;
+
+ }
+
+QPushButton#lastBtn{
+
+    min-width:26px;min-height:26px;
+	max-width:26px;max-height:26px;	
+	border-image: url(:/setting/setting/01407.png) 0 0 0 0;
+}
+QPushButton#lastBtn:hover{
+  border-image: url(:/setting/setting/01406.png) 0 0 0 0;
+
+ }
+QPushButton#nextBtn{
+
+    min-width:26px;min-height:26px;
+	max-width:26px;max-height:26px;	
+	border-image: url(:/setting/setting/01428.png) 0 0 0 0;
+}
+
+QPushButton#nextBtn:hover{
+  border-image: url(:/setting/setting/01429.png) 0 0 0 0;
+
+ }
+QPushButton#powerBtn{
+
+    min-width:26px;min-height:26px;
+	max-width:26px;max-height:26px;	
+	border-image: url(:/setting/setting/01442.png) 0 0 0 0;
+}
+ 
+ 
+  QPushButton#powerBtn:hover{
+  border-image: url(:/setting/setting/01441.png) 0 0 0 0;
+
+ }
+QWidget#contentWdg
+{
+background-color:transparent;
+border-width: 10px 10px 10px 10px;
+border-image: url(:/login/login/cancelBtnImage.png) 10 10 10 10;
+}
+QWidget#SeanTestWdg
+{ background-color:transparent;}  
+
+QWidget#SeanPptProgressWdg
+{
+	border-width: 10px 10px 10px 10px;
+    border-image: url(:/setting/setting/pptLoadBackLabel.png) 10 10 10 10;
+}	
+QLabel#pptBackLabel{
+	border-width: 20px 20px 20px 20px;
+    border-image: url(:/video/video/bigVideoBG.png) 20 20 20 20;
+}
+
+QLabel#pageLabel{
+	background-color:transparent;; 
+	color: rgb(255, 255, 255);
+    font-size:14px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+}
+
+QLabel#cursorLabel{
+	background: none;
+	background-color:transparent;; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

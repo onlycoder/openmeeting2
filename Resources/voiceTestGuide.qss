@@ -1,0 +1,96 @@
+
+
+ QPushButton#colorBtn{
+    border-image:url(:/setting/setting/settingColorImage.png);
+ }
+
+MicTestWdg QLabel#backLabel,SpekerTestWdg QLabel#backLabel{
+ 
+ border-image: url(:/setting/setting/whiteImage.png);
+
+}
+
+
+QLabel#titleLabel
+{
+	font-size:14px;
+	font-family:Î¢ÈíÑÅºÚ,ËÎÌå;
+	color:#ffffff;
+}
+
+QPushButton#closeBtn:hover{
+
+  border-image:url(:/login/login/icon_hgb1-09.png);
+}
+QPushButton#closeBtn{
+  border-image:url(:/login/login/icon_gb.png);
+}
+
+QLabel#VoiceTestWdg
+ { 
+	background: transparent;
+ }
+
+QLabel#backLabel{
+    border-width: 20px 20px 20px 20px;
+    border-image: url(:/setting/setting/bg_list.png) 20 20 20 20;
+
+}
+
+QComboBox QAbstractItemView
+{
+	outline: none;
+	margin: 0px;
+	border-width:3px 3px 3px 3px;
+	border-image:url(:/login/login/style_1.png);
+	padding: 1px 1px 1px 1px;
+	selection-background-color: qlineargradient(x1: 0.5, y1: 0.5, x2: 0, y2: 0, stop: 0 #3f98d9, stop: 1 #3188c7);
+}
+QComboBox{
+     font-size:12px;
+	font-family:Î¢ÈíÑÅºÚ,ËÎÌå;
+	padding: 0px 0px 0px 3px;
+	border-width:5px 5px 5px 5px;
+	border-image:url(:/login/login/style_1_normal.png) 5 5 5 5;
+}
+ QComboBox:hover:disabled
+{
+	border-width:5px 5px 5px 5px;
+	border-image:url(:/login/login/style_1_hover.png) 5 5 5 5;
+}
+QComboBox::drop-down
+{
+	top: 1px;
+	left: 1px;
+	background:transparent;
+}
+
+QComboBox::down-arrow
+{
+	border:none;
+	image: url(:/login/login/down_style_1_disable.png);
+}
+QComboBox::down-arrow
+{
+	border:none;
+	image: url(:/login/login/down_style_1.png);
+}
+
+QComboBox::down-arrow:on
+{
+	border:none;
+	image: url(:/login/login/up_style_1.png);
+}
+ QProgressBar{  
+    //color : solid green;  
+    border: 2px solid blue;  
+    border-radius: 2px;  
+    background: transparent;  
+    padding: 0px;  
+    text-align : center ;  
+
+}  
+QProgressBar::chunk{  
+    background:rgb(0, 47, 167);  
+
+} 

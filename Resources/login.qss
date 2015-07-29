@@ -1,0 +1,168 @@
+
+/*****************************UserLoginWdg*******************************************/
+UserLoginWdg QLabel#titleLabel
+{
+	border-width: 88px 20px 53px 20px;
+    border-image: url(:/login/login/logo.png) 88 20 53 20;
+}
+UserLoginWdg QLineEdit#acccountLineEdit{
+    background-color: rgba(20,20,20,0);
+    border: 10px transparent;
+    height: 60px;
+    font-size:14px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+ }
+UserLoginWdg QPushButton#meetingBtn{
+    border-image:url(:/login/login/nav_wxz.png);
+   font-size:16px;
+   font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+}
+UserLoginWdg QPushButton#countBtn{
+ border-image:url(:/login/login/nav_wxz.png);
+    font-size:16px;
+   font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+}
+UserLoginWdg QPushButton#meetingBtn:checked
+{
+  border-image:url(:/login/login/nav_xz.png);
+    font-size:16px;
+   font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+   
+}
+
+UserLoginWdg QPushButton#countBtn:checked{
+
+  border-image:url(:/login/login/nav_xz.png);
+    font-size:16px;
+   font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+   
+}
+
+UserLoginWdg QPushButton#closeBtn:hover{
+
+  border-image:url(:/login/login/icon_hgb1-09.png);
+}
+
+UserLoginWdg QPushButton#closeBtn{
+
+  border-image:url(:/login/login/icon_gb.png);
+}
+
+UserLoginWdg QPushButton#setBtn{
+
+  border-image:url(:/login/login/sz_1.png);
+}
+UserLoginWdg QPushButton#setBtn:hover{
+
+  border-image:url(:/login/login/icon_hsz.png);
+}
+UserLoginWdg QPushButton#loginBtn{
+
+  border-image:url(:/login/login/dl_1.png);
+}
+UserLoginWdg QPushButton#loginBtn:hover{
+
+  border-image:url(:/login/login/icon_hdl.png);
+}
+
+UserLoginWdg QCheckBox#saveCheckBox,QCheckBox#freeCheckBox{
+   
+    color: rgb(255,255,255);
+    text-align:center;
+    font-size:14px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+  
+}
+UserLoginWdg QCheckBox#saveCheckBox,QCheckBox#freeCheckBox:unchecked{
+                       
+  border-image: url(:/login/login/box_style_3.png)0 60 0 45;
+					 
+}
+UserLoginWdg QCheckBox#saveCheckBox,QCheckBox#freeCheckBox:checked{
+   
+   border-image: url(:/login/login/box_style_2.png) 0 60 0 45;
+}
+
+UserLoginWdg QLabel#tipLabel {
+
+    background-color: rgba(10,10,10,0); 
+	color: rgb(238, 99, 99);
+    border: 5px transparent;
+    height: 60px;
+    font-size:18px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+
+}
+
+/********************MeetingLoadingWidget******************************/
+MeetingLoadingWidget QLabel#loadingLabel,QLabel#backLabel {
+
+    background-color: rgba(20,20,20,0); 
+    border: 10px transparent;
+    height: 60px;
+    font-size:18px;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå;
+
+}
+
+MeetingLoadingWidget QPushButton#cancelBtn
+{
+   border-image:url(:/login/login/cancelBtnImage.png);
+}
+MeetingLoadingWidget QWidget#MeetingLoadingWidget{
+
+  
+
+}
+
+
+/********************MeetingListWdg******************************/
+
+MeetingListWdg  QLabel#logoLabel
+{
+	border-width: 88px 20px 53px 20px;
+    border-image: url(:/login/login/logo.png) 88 20 53 20;
+}
+MeetingListWdg QPushButton#closeBtn:hover{
+
+  border-image:url(:/login/login/icon_hgb1-09.png);
+}
+
+MeetingListWdg QPushButton#closeBtn{
+
+  border-image:url(:/login/login/icon_gb.png);
+}
+// MeetingListWdg QTableView#myTableView::item
+// {
+//   min-height: 60px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
